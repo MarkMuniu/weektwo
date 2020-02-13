@@ -1,14 +1,23 @@
 h1 {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 300%;
 }
 
 body {
-  background-image: url("images/afro1.jpg") ;
+  background-image: url("images/afro2.jpg") ;
+  background-position: center;
+  background-size: inherit;
+  
 }
 
-.intro {background-position: center;
-  background-color: rgb(129, 156, 9); 
-  border: 2px rgb(245, 210, 11);
+.intro {
+  color: rgb(78, 24, 24);
+  border: 10px solid rgb(2, 59, 47);
   padding: 10px;
+  margin: 20px;
   text-align: center;
+}
+.title {
+  color: brown;
 }
