@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url("images/afro1.jpg") ;
+}
+
+.intro {
+  background-color: rgb(129, 156, 9); 
+  border: 2px rgb(245, 210, 11);
+  padding: 10px;
+  text-align: center;
+}
+ 
