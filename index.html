@@ -21,13 +21,25 @@
 
   <div class="entry">
     <form onsubmit="return false">
-        Name<input type="text" id="nameBar" name="nameSet">
+        Name<input type="text" id="name" name="nameSet">
+    </form>
+    <form onsubmit="return false">
+      Birthday<input type="date"id="birthday" name="birthdaySet">
     </form>
   </div>
+
+  <div class="select gender">
+    <label for="male"> <input name="gender" onclick="pickGender('M')" type="radio" id="date">Male</label>
+    <label for="female"> <input name="gender" onclick="pickGender('F')" type="radio" id="date">Female</label>
+
+  </div>
+
+
+
   <div class="col-md-6">
     <div class="card">
       <div class="card title">
-       <h2>Male Kwasi Names</h2>
+       <h2>Male Akan Names</h2>
       </div>
      <div class="card body">   
         <ul>
@@ -44,7 +56,7 @@
   </div>
        
     <div class="card title">
-      <h2>Female Kwasi Names</h2>
+      <h2>Female Akan Names</h2>
     </div>   
      <div class="card body">
         <ul>
