@@ -12,10 +12,10 @@ body {
 }
 
 .intro {
-  color: rgb(78, 24, 24);
+  color: rgb(82, 30, 30);
   border: 10px solid rgb(2, 59, 47);
-  padding: 10px;
-  margin: 20px;
+  padding: 5px;
+  margin: 10px;
   text-align: center;
 }
 .title {
