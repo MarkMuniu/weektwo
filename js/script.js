@@ -14,8 +14,8 @@ function submitInfo(){
   }else{
     var gender = 'female';
   };
-  var name = sex[pickPosition]
-  days = 
+  var name = gender[pickPosition];
+  days = days[pickPosition];
   var personName = document.getElementById("name").value;
   var personBirthday = document.getElementById("birthday").value;
 
