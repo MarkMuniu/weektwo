@@ -15,7 +15,7 @@
 
   <div class="intro">
     <div class="jumbotron">
-      <p>This website aids people get their akan names which, according to Ghanian traditional customs, were given according to the day of the week in which a person was born. The akan names differ according to whether the person is male or female. Input the year, month and date in which you were born to find your Akan name.</p>
+      <p>This website aids people get their akan names which, according to Ghanian traditional customs, were given according to the day of the week in which a person was born. The akan names differ according to whether the person is male or female. Input the year, month and date in which you were born to find out your Akan name which will appear below the submit button.</p>
     </div>  
   </div>
 
@@ -33,6 +33,13 @@
       <input type="submit" onclick="submitInfo()" value="Submit">
     </form>
   </div>
+
+  <input type="input" maxlength="60" id="akan-name" onkeyup="showMsg()" placeholder="Your Akan-name is...">
+  <p id="userMsg"></p>
+
+  <input type="input" maxlength="60" id="birth-day" onkeyup="showMsg()" placeholder="You were born on a...">
+  <p id="userMsg"></p>
+
 
   <div class="col-md-6">
     <div class="card">
