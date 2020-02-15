@@ -5,7 +5,7 @@ var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
 var personName = document.getElementById("name").value;
 var personBirthday = document.getElementById("birthday").value;
 console.log(personBirthday);
- 
+ r
 if (document.getElementById("hisDate").checked){
   ("Sunday" === "Kwasi")
 }
