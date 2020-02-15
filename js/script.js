@@ -19,5 +19,7 @@ function submitInfo(){
   var personName = document.getElementById("name").value;
   var personBirthday = document.getElementById("birthday").value;
   document.getElementById("akan-name").innerHTML = "Your Akan name is" + name 
+  document.getElementById("birth-day").innerHTML = "You were born on a" + days
+} 
  
 }
