@@ -6,7 +6,7 @@ function submitInfo(){
   var MM = parseInt(document.getElementById("month").value);
   var year = document.getElementById("year").value;
   var YY = parseInt(year.slice(2,4));
-  var CC = parseInt(year.slice(0,2))
+  var CC = parseInt(year.slice(0,2));
   var personName = document.getElementById("name").value;
   var personBirthday = document.getElementById("birthday").value;
 
