@@ -18,6 +18,6 @@ function submitInfo(){
   days = days[pickPosition];
   var personName = document.getElementById("name").value;
   var personBirthday = document.getElementById("birthday").value;
-  document.getElementById("name")
-
+  document.getElementById("akan-name").innerHTML = "Your Akan name is" + name 
+ 
 }
