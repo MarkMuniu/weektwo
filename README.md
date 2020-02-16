@@ -10,6 +10,11 @@ MARK MUNIU - I am an aspiring game and software developer who is on a journey to
 Setup Instructure:
 All that is required of the user is to fill in their name and bithday-date in the designated areas then submit and let the site handle the rest.
 
+Behavior-Driven Development:
+  Behavior                                           Input Example                            Output Example
+1.Finds the day a person was born                  1.date:09/04/2000                        1.Monday
+2.Finds the akan name depending on day of birth    2.Monday                                 2."Kwasi"
+
 Technologies Used:
 I used three programming languages to design this website, namely: HTML, CSS and JavaScript.
 
